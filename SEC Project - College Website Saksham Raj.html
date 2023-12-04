@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARSD College Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif; /* Added a common font-family */
+        }
+        /* Top horizontal frame */
+        .top-frame {
+            background-color: #160e59;
+            height: 120px;
+            padding: 10px;
+            display: flex;
+            align-items: center; /* Center the content vertically */
+        }
+        .top-frame img {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px; /* Added margin to separate image from text */
+        }
+        /* Bottom horizontal frame */
+        .bottom-frame {
+            background-color: skyblue;
+            display: flex;
+            height: calc(100vh - 100px);
+        }
+        /* Left vertical frame */
+        .left-frame {
+            width: 200px;
+            background-color: #ecec6a;
+            padding: 20px;
+        }
+        .left-frame ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .left-frame li {
+            margin-bottom: 10px;
+        }
+        .left-frame a {
+            text-decoration: none;
+            color: #ff0303;
+        }
+        /* Right vertical frame */
+        .right-frame {
+            flex: 1;
+            padding: 20px;
+        }
+        /* Content pages */
+        .content-page {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <style>
+        .navbar {
+         overflow: hidden;
+        background-color: rgb(255, 0, 0);
+        }
+        .navbar a {
+        float: Left;
+        color: White;
+        text-align: Center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+        .dropdown {
+        float: Left;
+        overflow: Hidden;
+        }
+        .dropdown .dropbtn { 
+        border: none;
+        outline: none;
+        color: White;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        margin: 0;
+        }
+        .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: rgb(255, 0, 0)(0, 42, 255);
+        }
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: Salmon;
+        min-width: 100px;
+        }
+        .dropdown-content a {
+        float: none;
+        color: White;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: Center;
+        font-size: 16px;}
+        .dropdown-content a:hover {
+        background-color: Red;
+        color
+        }
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+        </style>
+        </head>
+        <body style="background-color:white; font-size:16 px;">
+        <div class="navbar">
+        <a href="#home"><b>Home</b></a>
+        <a href="#faculty"><b>Faculty</b></a>
+        <a href="#courses"><b>Courses</b></a>
+        <div class="dropdown">
+        <button class="dropbtn"><b>More</b></button>
+        <div class="dropdown-content">
+        <a href="#"><b>Activities</b></a>
+        <a href="#"><b>Research</b></a>
+        <a href="#"><b>Contact Us</b></a>
+        </div>
+        </div> 
+        </div>
+<div class="top-frame">
+    <img align="left", src="https://www.static-contents.youth4work.com/university/Documents/Colleges/collegeLogo/20230602130700.png?v=20230602130700" alt="College Logo">
+    <p style="color: white; font-size: 30px; font-weight: bold; margin: 0;">
+        <ATMA RAM SANATAN SHARMA COLLEGE<br>
+            <span style="font-size: 16px;">UNIVERSITY OF DELHI</span><br>
+            <span style="font-size: 10px;">NAAC Accredited A++ and NIRF Ranking - 6</span>
+        </style>
+        
+    </p>
+</div>
+<div class="bottom-frame">
+    <div class="left-frame">
+        <ul>
+            <li><a href="#faculty"><b>Faculty</b></a></li>
+            <li><a href="#courses"><b>Courses</b></a></li>
+            <li><a href="#activities"><b>Student Activities</b></a></li>
+        </ul>
+    </div>
+    <div class="right-frame">
+        
+        <marquee><b><font color="red">View All Notices : </b></font></span> Front End Web Development Project<br>Practical Exam is on 05th Dec 2023<br><br>
+            <b>This Project is completed by SAKSHAM RAJ. </b></This>
+            <li>I am pursuing B.Sc. Physical Science with Computer Science (Semester - 1) 2023-24</li>
+            <li>The name of my college is Atma Ram Sanatan Dharma College, Delhi University.</li></marquee>
+            <img src ="https://images.shiksha.com/mediadata/images/1644490223php7kPn0f.jpeg", length="1000", height="400"
+        </img>
+
+            <div id="faculty" class="content-page">
+            <h2>Faculty</h2>
+            <p>A faculty is a group of employees at a college or university who teach students. 
+        They are also known as academic staff. <br><br>Faculty members may include: Teachers, Lecturers, Researchers, Scholars, Professors. 
+       Faculty members specialize in different fields of study and teach various subjects. <br><br>They may be organized into departments, such as: <br><br>
+       <ol>
+        <li>Faculty of Science</li>
+        <li>Faculty of Engineering</li>
+        <li>Faculty of Arts</li>
+        <li>Faculty of Commerce</li>
+        </ol>
+       Faculty members may also be organized into divisions within a college or university. These divisions may be called: Colleges, 
+       Schools, Academic departments.
+            </p>
+        </div>
+
+        <div id="courses" class="content-page">
+            <h2>Courses</h2>
+            <p>There are more than 25 courses, a candidate is eligible to apply for after 12th or Bachelors or Masters. Candidates can pursue  Science, Commerce, 
+                or arts courses after completing their 10+2. Some of the most popular undergraduate courses that are pursued by students after 
+                12th include:
+                <ol>
+                    <li>B. Tech. in CSE, ECE, AI & ML</li>
+                    <li>B.Sc. in Computer Science, Electronics, Physics, Chemistry, Mathematics, etc.</li>
+                    <li>BCA</li>
+                    <li>MBBS</li>
+                    <li>B.A. in various disciplines</li>
+                    <li>BCom</li>
+                    <li>BBA</li>
+                    <li>BFA</li>
+                </ol>
+            </p>
+        </div>
+
+        <div id="activities" class="content-page">
+            <h2>Student Activities</h2>
+            <p>
+                <ol>
+                    <li>Content Focus</li>
+                    <li>Interactivity Focus</li>
+                    <li>Content Focus</li>
+                    <li>Interactivity Focus</li>
+                    <li>Critical Thinking</li>
+                    <li>Production</li>
+                    <li>Problem Solving</li>
+                    <li>Reflection</li>
+                    <li>Student Clubs</li>
+                    <li>Fraternities & Sororities</li>
+                    <li>Honor Societies</li>
+                    <li>Student Government</li>
+                    <li>Student Newspaper</li>
+                    <li>On-Campus Jobs</li>
+                    <li>Intramural Sports</li>
+                    <li>Club Sports</li>
+                </ol>
+            </p>
+            <h4 style="color: rgb(255, 64, 0); font-family: 'Arial Bold';">
+                
+                This Project is completed by Saksham Raj. 
+                <li>I am pursuing B.Sc. Physical Science with Computer Science (Semester - 1) 2023-24</li>
+                <li>The name of my college is Atma Ram Sanatan Dharma College, Delhi University.</li>
+            </li>
+        </h4>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Display the corresponding content page based on the selected link
+    document.querySelectorAll('.left-frame a').forEach(function (link) {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            var contentPageId = this.getAttribute('href');
+            var contentPage = document.querySelector(contentPageId);
+
+            document.querySelectorAll('.content-page').forEach(function (page) {
+                page.style.display = 'none';
+            });
+
+            contentPage.style.display = 'block';
+        });
+    });
+</script>
+</body>
+</html>
